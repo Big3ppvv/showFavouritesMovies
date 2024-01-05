@@ -1,6 +1,6 @@
 import Image from "./Image"
 
-export default function Movies(urlMovie) {
+function Movies(urlMovie) {
   return(
     urlMovie.forEach((value) =>{
     <>
@@ -10,7 +10,8 @@ export default function Movies(urlMovie) {
       <Image key={value} movies={value}/>
     
     </>
-  })
-)
+    })
+  ) 
 }
-  
+
+export default Movies
