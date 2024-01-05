@@ -1,9 +1,9 @@
 import {Movies} from "./lordsOfTheRings"
-const urls = {
-  comunityOfTheRing : "images/images.png", 
-  theTwoTowers : "images/images2.png", 
-  theReturnOfTheKing : "images/images3.png"
-};
+const urls = [
+  "/img/images.png", 
+  "/img/images2.png", 
+  "/img/images3.png"
+];
 
 function App() {
   return (
