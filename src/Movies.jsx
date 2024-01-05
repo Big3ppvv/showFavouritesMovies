@@ -1,16 +1,17 @@
 import Image from "./Image"
 
-function Movies(urlMovie) {
+function Movies(urlMovie){
+  
   return(
-    urlMovie.forEach( value =>{
-    <>
+    Object.entries(urlMovie).map((name, movie) =>{
+      <>
       <h1>My favourites movies!</h1>
-      <Image key={value} movies={value}/>
-      <Image key={value} movies={value}/>
-      <Image key={value} movies={value}/>
+      <Image key={key={name}} movies={movie}/>
+      <Image key={index} movies={movie}/>
+      <Image key={index} movies={movie}/>
     
     </>
-    })
+    }) 
   ) 
 }
 

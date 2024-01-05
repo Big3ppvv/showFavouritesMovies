@@ -1,7 +1,7 @@
 import Movies from "./Movies";
 
 function App() {
-  const urls = ["/img/images.png","/img/images2.png", "/img/images3.png"];
+  const urls = {communityOfTheRing:"/img/images.png",theTwoTowers:"/img/images2.png", returnOfTheKing:"/img/images3.png"};
   return (
     <>
       <Movies urlMovie={urls}/>
