@@ -1,6 +1,6 @@
 import Image from "./Image"
 
-export function Movies(urlMovie) {
+export default function Movies(urlMovie) {
   return(
     urlMovie.forEach((value) =>{
     <>

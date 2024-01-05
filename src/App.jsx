@@ -1,9 +1,6 @@
 import {Movies} from "./lordsOfTheRings"
 const urls = [
-  "/img/images.png", 
-  "/img/images2.png", 
-  "/img/images3.png"
-];
+  "/img/images.png","/img/images2.png", "/img/images3.png"];
 
 function App() {
   return (
