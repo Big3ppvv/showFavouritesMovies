@@ -1,9 +1,9 @@
-import ShowMovies from "./components/Movies"
+import RenderImages from "./components/renderImages"
 function App() {
   
   return (
     <div>
-      <ShowMovies/>
+      <RenderImages/>
     </div>
   )
 }
