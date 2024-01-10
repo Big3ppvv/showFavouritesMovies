@@ -1,11 +1,10 @@
-import Movies from "./Movies";
-
+import ShowMovies from "./components/Movies"
 function App() {
-  const urls = {communityOfTheRing:"/img/images.png",theTwoTowers:"/img/images2.png", returnOfTheKing:"/img/images3.png"};
+  
   return (
-    <>
-      <Movies urlMovie={urls}/>
-    </>
+    <div>
+      <ShowMovies/>
+    </div>
   )
 }
 
