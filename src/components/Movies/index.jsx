@@ -1,3 +1,5 @@
+import RenderImages from "../renderImages";
+
 const ShowMovies = () => {
   const url = fetch('https://mockapi.io/movies', {
     method: 'GET',
@@ -13,6 +15,7 @@ const ShowMovies = () => {
           <div>
             <ul>
               <li key={key.id}>{value}</li>
+              <RenderImages/>
             </ul>
           </div>
         )
@@ -26,9 +29,7 @@ const ShowMovies = () => {
         </div>
       )
 
-    });
-  url.headers.push()
-  
+    }); 
 }
 
 
