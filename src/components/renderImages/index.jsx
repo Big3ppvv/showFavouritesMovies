@@ -1,16 +1,11 @@
-const RenderImages = () =>{
-  const urlImages = ['src/components/Images/12HombresEnojados.jpg',
-  'src/components/Images/elExorcista.jpg', 
-  'src/components/Images/elPadrino2.jpg',
-  'src/components/Images/elSeñorDeLosAnillos3.jpg',
-  'src/components/Images/fuegoContraFuego.jpg']
-
-  const imageMovies = urlImages.map( values =>{
+const RenderImages = (props) =>{
+  const urlImage = props.urlImage;
+  const id = props.id;
+  return(
     <div>
-      <img src={values}/>
+      <img key={id} src={urlImage} alt="Image of a movie"/>
     </div>
-  }) 
-
-  return(imageMovies)
+  )
 }
+
 export default RenderImages
