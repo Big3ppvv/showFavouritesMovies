@@ -1,5 +1,5 @@
 const NameTittle = (props) =>{
-    const titleName = props.nameAndDescription
+    const titleName = props.nameAndDescription;
     return(
         <div>
             {titleName.map((values) =>{
