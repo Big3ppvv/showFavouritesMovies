@@ -6,7 +6,7 @@ function App() {
   const [selectedMovie, setSelectedMovie] = useState()
 
   return(
-    <div>
+    <div className="grid grid-cols-2">
       <MovieItem setSelectedMovie={setSelectedMovie}/>
       <Canvas selectedMovie={selectedMovie}/>
     </div>
